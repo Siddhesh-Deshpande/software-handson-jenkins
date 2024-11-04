@@ -1,62 +1,55 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.example.AppTest" time="0.003" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.AppTest" time="0.044" tests="1" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="java.vm.version" value="17.0.6+9-LTS-190"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-oracle/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/tanmay/Desktop/SELab/demo"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="path.separator" value=":"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="user.country" value="US"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/tanmay/Desktop/SELab/demo"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
-    <property name="maven.conf" value="/usr/share/maven/conf"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="61.0"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="5.15.0-122-generic"/>
-    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
-    <property name="user.home" value="/home/tanmay"/>
-    <property name="user.timezone" value="Asia/Kolkata"/>
-    <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="17"/>
-    <property name="user.name" value="tanmay"/>
-    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
-    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/siddhesh/Documents/SELab/target/test-classes:/home/siddhesh/Documents/SELab/target/classes:/home/siddhesh/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/siddhesh/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
-    <property name="java.home" value="/usr/lib/jvm/java-17-oracle"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-17-oracle-x64/lib"/>
+    <property name="sun.java.command" value="/home/siddhesh/Documents/SELab/target/surefire/surefirebooter-20241015162904963_3.jar /home/siddhesh/Documents/SELab/target/surefire 2024-10-15T16-29-04_872-jvmRun1 surefire-20241015162904963_1tmp surefire_0-20241015162904963_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/siddhesh/Documents/SELab/target/test-classes:/home/siddhesh/Documents/SELab/target/classes:/home/siddhesh/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/siddhesh/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/siddhesh"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="17.0.6"/>
-    <property name="native.encoding" value="UTF-8"/>
-    <property name="securerandom.source" value="file:/dev/./urandom"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.stderr.encoding" value="UTF-8"/>
-    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="/usr/lib/jvm/jdk-17-oracle-x64"/>
     <property name="file.separator" value="/"/>
-    <property name="java.version.date" value="2023-01-17"/>
+    <property name="basedir" value="/home/siddhesh/Documents/SELab"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/siddhesh/Documents/SELab/target/surefire/surefirebooter-20241015162904963_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
+    <property name="user.name" value="siddhesh"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.0-122-generic"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/siddhesh/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.8"/>
+    <property name="user.dir" value="/home/siddhesh/Documents/SELab"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.8+9-LTS-211"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.stdout.encoding" value="UTF-8"/>
+    <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase classname="com.example.AppTest" name="testSum" time="0.003"/>
+  <testcase name="testSum" classname="com.example.AppTest" time="0.001"/>
 </testsuite>
